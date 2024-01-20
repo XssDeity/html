@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<tittle>Register</tittle>
+		<meta charset="UTF-8">
+		<link href="css/estilo.css"  rel="stylesheet" >
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="logo">
+				<img src="img/logo.jpg" alt"logo">
+			</div>
+		</header>
+		
+		<section id="formulario">
+		
+		<form namne="Nuevo Usuario" method="POST" action="php/ConexionCrearUsuario.php">
+		
+		Nickname: <br>
+		<input type="text" name="nickname" pattern="[a-zA-Z0-9]" placeholder="Ingrese su Nickname" required><br>
+		
+		Contraseña: <br> 	
+		
+		<input type="password" name="contraseña" maxlength="20" autocomplete="new-password" placeholder="Ingrese su contraseña" required><br> 	 
+		
+		Nombre: <br>
+				<input type="text" name="nombre" placeholder="Ingrese su nombre" required><br>
+		
+		Apellidos: <br>
+				<input type="text" name="apellidos" placeholder="Ingrese sus Apellidos" required> <br>
+				
+		Email: <br>
+				<input type="email" name="correo" placeholder="Ingrese su email" required> <br>
+				
+		Edad: <br>
+				<input type="number" name="edad" min="18" placeholder="Ingrese su edad" required> <br>
+		
+		Descripcion<br>
+				<textarea name="descripcion" placeholder="Ingrese su descripcion " required></textarea><br>
+
+		<input type="sumbit" name="enviar" class="boton" value="Registrate" >
+		<input type="reset" class="boton" value="Borrar">
+		
+		<hr>
+		</form>
+		
+		</section>
+		
+		<section id="formulario2">
+				<h2>Inicia sesion</h2>
+				
+				<form name="contacto" method="PORT" section="php/IniciarSesion.php">
+				Nickname: <br>
+		<input type="text" name="nickname"  placeholder="Ingrese su Nickname" required><br>
+		
+		Contraseña: <br> 	
+		
+		<input type="password" name="contraseña"  autocomplete="off" placeholder="Ingrese su contraseña" required><br> 	 
+		
+		<hr><!-- LINEA-->
+		<input type="sumbit" name="enviar" class="boton" value="Iniciar Sesion">
+		
+			</form>
+			
+		</section>
+		
+		
+		
+		<footer>
+			<p> Copyright &copy; 2020,Ctrl Profe</p>
+	<footer>
+	</body>
+	
+		
+			
+<html>
+
+	

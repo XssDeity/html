@@ -1,0 +1,35 @@
+
+body{
+	color: red;
+	width: 100%;
+	max-width: 900px;
+	margin:0 auto; /*margen centrado primero  vertical,segundo horizontal */
+	/*border: 2px solid #000; */
+	
+}
+
+header{
+	height: 16vh;
+	width: 100%;
+	max-width: 900px;
+	margin: 20px 0px;
+	/*border: 2px solid #000; */
+	
+}
+
+header #logo{
+		height: 16vh;
+		float: left;
+	
+}
+
+header #logo img{
+	height: 16vh;
+}
+
+header .menu{
+	height:16vh;
+	float right;
+}
+
+header .menu.
